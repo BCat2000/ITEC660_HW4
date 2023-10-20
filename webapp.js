@@ -19,7 +19,7 @@ const app = express();
 
 //main page
 app.get("/", function(req,res) { // HTML content is passed directly into the res.send function for simplicity. Ideally, an html file would be sent instead of raw HTML data.
-	res.send ('  <Title >Home Page</Title> <h style ="color:White">Welcome to the home page</h>  <ul style ="background-color:white; border-radius:10px; width:10%; opacity:75%;"> <li>Brennan Catalan</li> <li>Professor Bradley Watson</li> <li> ITEC 660</li> <li>Franklin University</li> <li>10/13/2023</li> </ul> <body style="background-color:Gray"></body> <p style="color:white">Navigation Links Below:</p> <a href="https://hw4-itec660-ef5c8968ea15.herokuapp.com/bio" style = "color:green; font-weight:bolder">Bio</a> <br>  <a href="https://hw4-itec660-ef5c8968ea15.herokuapp.com/contact" style = "color:green; font-weight:bolder">Contact</a>' );
+	res.send ('  <Title >Home Page</Title> <h style ="color:White">Welcome to the home page</h>  <ul style ="background-color:white; border-radius:10px; width:10%; opacity:75%;"> <li>Brennan Catalan</li> <li>Professor Bradley Watson</li> <li> ITEC 660</li> <li>Franklin University</li> <li>10/20/2023</li> </ul> <body style="background-color:Gray"></body> <p style="color:white">Navigation Links Below:</p> <a href="https://hw4-itec660-ef5c8968ea15.herokuapp.com/bio" style = "color:green; font-weight:bolder">Bio</a> <br>  <a href="https://hw4-itec660-ef5c8968ea15.herokuapp.com/contact" style = "color:green; font-weight:bolder">Contact</a>' );
    
     
 });
