@@ -2,16 +2,16 @@
 //Professor Bradley Watson
 //Franklin University
 // ITEC 660
-//Require express
-const express = require ("express");
+
 
 //If the code runs on Heroku, assign a dynamic port number
 let port = process.env.PORT;
+//Require express
+const express = require ("express");
 
-//If it runs locally assign 8002 static port
-if (port == null || port == "") {
-  port = 8002;
-}
+
+
+
 
 
 //app object
