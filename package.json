@@ -4,7 +4,7 @@
   "description": "",
   "main": "webapp.js",
   "scripts": {
-    "start": "node server"
+    "start": "node webapp.js"
   },
   "author": "",
   "license": "ISC",
